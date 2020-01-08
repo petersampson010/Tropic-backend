@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  bot_name: MyString
+  alt_name: MyString
+  img_url: MyString
+  description: MyString
+  uses: MyString
+  health: MyString
+  climate: MyString
+  soil: MyString
+  propagation: MyString
+
+two:
+  name: MyString
+  bot_name: MyString
+  alt_name: MyString
+  img_url: MyString
+  description: MyString
+  uses: MyString
+  health: MyString
+  climate: MyString
+  soil: MyString
+  propagation: MyString
