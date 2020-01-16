@@ -1,0 +1,7 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  growth_features: MyString
+
+two:
+  growth_features: MyString

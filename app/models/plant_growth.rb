@@ -1,0 +1,2 @@
+class PlantGrowth < ApplicationRecord
+end
