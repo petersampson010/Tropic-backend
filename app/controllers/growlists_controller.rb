@@ -11,7 +11,7 @@ class GrowlistsController < ApplicationController
     end 
 
     def show 
-        wishlist = Wishlist.find(params[:id])
+        wishlist = Growlist.find(params[:id])
         wishlist.destroy
     end 
 

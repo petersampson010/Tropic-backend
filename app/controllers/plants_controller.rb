@@ -10,7 +10,7 @@ class PlantsController < ApplicationController
     end 
 
     def show 
-        wishlist = Wishlist.find(params[:id])
+        wishlist = Plant.find(params[:id])
         wishlist.destroy
     end 
 
