@@ -5,6 +5,11 @@ class PlantGrowthsController < ApplicationController
         render json: plant_growths
     end 
 
+    def show 
+        plant_growth = PlantGrowth.find(params[:id])
+        render json: plant_growth
+    end 
+
     def create 
         plant_growth = PlantGrowth.create(plant_growth_params)
     end 

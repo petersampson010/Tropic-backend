@@ -9,10 +9,10 @@ class PlantsController < ApplicationController
         Plant.create(plant_params)
     end 
 
-    def show 
-        wishlist = Plant.find(params[:id])
-        wishlist.destroy
-    end 
+    # def show 
+    #     plant = Plant.find(params[:id])
+    #     wishlist.destroy
+    # end 
 
     private 
 

@@ -12,7 +12,12 @@ class WishlistsController < ApplicationController
 
     def show 
         wishlist = Wishlist.find(params[:id])
-        wishlist.destroy
+        render json: wishlist
+    end 
+
+    def destroy
+        wishlist = Wishlist.find(params[:id])
+        wishlist.delete
     end 
 
     private 

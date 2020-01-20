@@ -11,8 +11,13 @@ class GrowlistsController < ApplicationController
     end 
 
     def show 
-        wishlist = Growlist.find(params[:id])
-        wishlist.destroy
+        growlist = Growlist.find(params[:id])
+        render json: growlist
+    end 
+
+    def destroy
+        growlist = Growlist.find(params[:id])
+        growlist.delete
     end 
 
     private 

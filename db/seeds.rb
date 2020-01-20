@@ -29,6 +29,7 @@ PlantGrowth.create(name: "Custard Apple", flowering_s: 12, flowering_f: 24, frui
 PlantGrowth.create(name: "Dill", sprouting_s: 1)
 PlantGrowth.create(name: "Dragon Fruit")
 PlantGrowth.create(name: "Dudhi", fruiting_s: 72, harvest_s: 73)
+PlantGrowth.create(name: "Durian", fruiting_s: 48, fruiting_f: 60, harvest_s: 55, harvest_f: 67)
 PlantGrowth.create(name: "Fennel", fruiting_s: 6)
 PlantGrowth.create(name: "Fenugreek", flowering_s: 3, flowering_f: 4, harvest_s: 6, harvest_f: 9)
 PlantGrowth.create(name: "Fig", fruiting_s: 36, fruiting_f: 60)
