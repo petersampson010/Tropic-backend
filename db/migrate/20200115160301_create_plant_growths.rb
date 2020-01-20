@@ -6,8 +6,7 @@ class CreatePlantGrowths < ActiveRecord::Migration[6.0]
       t.integer :germinate_f
       t.integer :sprouting_s
       t.integer :sprouting_f
-      t.integer :harvest_s
-      t.integer :harvest_f
+      t.integer :harvest
       t.integer :maturity_s
       t.integer :maturity_f
       t.integer :pot_s
