@@ -7,7 +7,7 @@ class GrowlistsController < ApplicationController
 
     def create 
         growlist = Growlist.create(growlist_params)
-        render json: growlist.plant
+        render json: growlist
     end 
 
     def show 
