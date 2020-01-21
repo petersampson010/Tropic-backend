@@ -1,9 +1,7 @@
 class User < ApplicationRecord
 
     has_many :wishlists 
-    has_many :growlists 
-    # has_many :plants, through: :growlists 
-    # has_many :plants, through: :wishlists 
+    has_many :growlists
 
     def wishlist_plants
         self.wishlists.map{|w| w.plant}
@@ -12,6 +10,10 @@ class User < ApplicationRecord
     def growlist_plants
         self.growlists.map{|w| w.plant}
     end
+
+    def start_time 
+        self.growlists.map{|w| w.start_time}
+    end 
 
     has_secure_password
 end

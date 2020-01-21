@@ -10,13 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_01_15_160301) do
+ActiveRecord::Schema.define(version: 2020_01_21_105942) do
 
   create_table "growlists", force: :cascade do |t|
     t.integer "user_id"
     t.integer "plant_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "start_time"
   end
 
   create_table "plant_growths", force: :cascade do |t|
