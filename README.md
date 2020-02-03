@@ -1,24 +1,10 @@
-# README
+# Tropic
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Application to educate users on the wide range of benefits of tropical fruit and vegetables. Search for plants by their health benefits, add to your "Oasis" and track their growth-span. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Steps to Download: 
+1. Fork and Clone repo
+2. Run `rails db:migrate` on backend 
+3. Run `rails s` on backend 
+4. Run `npm i` on frontend 
+5. Run `npm start` on frontend, select y for new port 
